@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+private void rand_sleep(){
+	try{
+		Long sl = (long)(Math.random()*1000);
+		Thread.sleep(sl);
+	}catch(Exception e){}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>frand_sleep</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.java</scope>
+</snippet>
