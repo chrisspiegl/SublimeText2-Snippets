@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+default:
+	javac Main.java
+	java Main
+
+run:
+	java Main
+
+clean:
+	del Main.class
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>makejava</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.Makefile</scope> -->
+</snippet>
