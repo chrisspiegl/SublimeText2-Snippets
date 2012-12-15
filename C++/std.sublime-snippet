@@ -1,6 +1,5 @@
 <snippet>
 	<content><![CDATA[
-#include "Main.h"
 #include <iostream>
 
 using namespace std;
