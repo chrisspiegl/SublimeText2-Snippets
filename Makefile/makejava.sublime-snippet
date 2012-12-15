@@ -1,14 +1,15 @@
 <snippet>
 	<content><![CDATA[
-default:
-	javac Main.java
-	java Main
+JAVAC = javac
+
+Main:	Main.java
+	\$(JAVAC) \$<
 
 run:
 	java Main
 
 clean:
-	del Main.class
+	rm -rf Main.class *.class
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>makejava</tabTrigger>

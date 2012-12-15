@@ -16,17 +16,17 @@ LDFLAGS =
 
 #------ Targets ---------
 
-main:	main.c
-	\$(CC) \$(CFLAGS) -o \$@ \$<  -lpthread
+Main:	Main.cpp
+	\$(CCC) \$(CCFLAGS) -o \$@ \$<  -lpthread
 
 run:
-	./main
+	./Main
 
 clean:
-	rm -rf *.o main main.dSYM
+	rm -rf *.o Main Main.dSYM
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>makec</tabTrigger>
+	<tabTrigger>makecpp</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>
